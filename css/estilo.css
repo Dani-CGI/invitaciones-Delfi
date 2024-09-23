@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Gabriola';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gabriola'), url('font/gabriola.woff') format('woff');
+}
+body{
+    background: #D0C3FD;
+    max-height: 1920px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1080px;
+    max-height: 1920px;
+    background-image: url('../img/background.svg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Sombra del contenedor */
+    border-radius: 25px; /* Bordes redondeados opcionales */
+    z-index: 2;
+}
+.invitacion{
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1080px;
+    max-height: 1920px;
+    background-image: url('../img/invitacion.svg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+.countdown-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 65%;
+    background-color: transparent;
+}
+.countdown-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countdown-item {
+    text-align: center;
+    margin: 0 15px;
+}
+.countdown-number {
+    font-family: 'Gabriola', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #D0C3FD;
+}
+.countdown-label {
+    font-family: 'Gabriola', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #764A96;
+}
+.celebration-message {
+    font-family: 'Gabriola', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #764A96;
+}
+.confirmation-button, .confirmation-button a{
+    font-family: 'Gabriola', sans-serif;
+    font-size: 1.5rem;
+    color: #764A96;
+    background-color: #F6CBF1;
+    border-radius: 50px;
+    border:0px solid;
+    padding: 0px 35px 0px 35px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.confirmation-message {
+    font-family: 'Gabriola', sans-serif;
+    font-size: 1.2rem;
+    color: #D0C3FD;
+    margin-top: 20px;
+    text-align: center;
+}
